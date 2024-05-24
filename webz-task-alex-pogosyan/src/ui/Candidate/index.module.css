@@ -1,0 +1,14 @@
+.customList {
+  list-style-type: none;
+}
+.customList li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.customList li::before {
+  vertical-align: text-bottom;
+  content: url("/bullet.svg");
+  padding: 0.25rem 1rem 0 0;
+}

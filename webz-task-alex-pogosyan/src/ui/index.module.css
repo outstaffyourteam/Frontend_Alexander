@@ -1,0 +1,4 @@
+.splitBg {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(0deg, #f8f8f8 40%, #fff 40%);
+}
